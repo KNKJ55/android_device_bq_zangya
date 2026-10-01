@@ -14,10 +14,7 @@
 # limitations under the License.
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += device/bq/zangya/overlay
-
-include device/bq/sdm660-common/sdm660.mk
+include device/bq/zangya/sdm660.mk
 
 # ZRAM
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -16,7 +16,7 @@
 
 DEVICE_PATH := device/bq/zangya
 
-include device/bq/sdm660-common/BoardConfigCommon.mk
+include device/bq/zangya/BoardConfigCommon.mk
 
 TARGET_KERNEL_CONFIG := lineageos_zangya_defconfig
 
